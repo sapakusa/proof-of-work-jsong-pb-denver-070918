@@ -5,7 +5,7 @@ Proof-of-work is simply the double-sha256 of the block header. If this number, i
 
 There's a reason why this process is likened to mining. It takes roughly 2-90 tons of processing dirt and rock in order to find a single ounce of gold. In the same way, we have to process lots of numerical dirt and rock in order to find a proof-of-work. Proof-of-work is rare and uniformly distributed, making finding one just as difficult with one type of header versus another.
 
-### Exercise
+### Try it
 
 #### Validate the proof-of-work for this block
 ```
