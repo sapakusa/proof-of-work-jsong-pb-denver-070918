@@ -36,6 +36,8 @@ hex_block = '04000000fbedbbf0cfdaf278c094f187f2eb987c86a199da22bbb20400000000000
 
 
 ```python
+from io import BytesIO
+from helper import double_sha256, little_endian_to_int
 from block import Block
 
 class Block(Block):
