@@ -23,10 +23,11 @@ from block import Block
 hex_block = '04000000fbedbbf0cfdaf278c094f187f2eb987c86a199da22bbb20400000000000000007b7697b29129648fa08b4bcd13c9d5e60abb973a1efac9c8d573c71c807c56c3d6213557faa80518c3737ec1'
 
 # bytes.fromhex to get the binary block
-# double_sha256 the block
-# interpret the result as a number in little endian
 # make a stream using BytesIO
 # parse the Block
+
+# double_sha256 the serialization
+# interpret the result as a number in little endian
 # get the target
 # check proof of work < target
 ```
