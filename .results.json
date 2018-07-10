@@ -1,0 +1,1 @@
+{"stats": {"errors": 0, "failures": 0, "passes": 1, "skipped": 0, "encoding": "UTF-8", "total": 1}, "results": [{"classname": "index_test:BlockTest", "name": "test_check_pow", "time": 0.0006134510040283203, "type": "success"}]}
